@@ -1,0 +1,44 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Watch placeholder">
+  <g stroke="#898781" stroke-width="1" fill="none" opacity="0.55" stroke-linecap="round" stroke-linejoin="round">
+    <!-- lugs -->
+    <path d="M76 46 L70 24 Q70 18 76 18 L124 18 Q130 18 130 24 L124 46" />
+    <path d="M76 154 L70 176 Q70 182 76 182 L124 182 Q130 182 130 176 L124 154" />
+
+    <!-- case -->
+    <circle cx="100" cy="100" r="56" />
+
+    <!-- bezel inner ring -->
+    <circle cx="100" cy="100" r="48" opacity="0.8" />
+
+    <!-- crown -->
+    <path d="M156 92 L166 96 L166 104 L156 108 Z" />
+
+    <!-- chrono pusher hints -->
+    <path d="M152 74 L160 70 L163 77 L155 81 Z" opacity="0.6" />
+    <path d="M152 126 L160 130 L163 123 L155 119 Z" opacity="0.6" />
+
+    <!-- hour markers -->
+    <g stroke-width="1.2">
+      <line x1="100" y1="58" x2="100" y2="66" />
+      <line x1="100" y1="134" x2="100" y2="142" />
+      <line x1="58" y1="100" x2="66" y2="100" />
+      <line x1="134" y1="100" x2="142" y2="100" />
+      <line x1="70.6" y1="70.6" x2="76" y2="76" />
+      <line x1="124" y1="124" x2="129.4" y2="129.4" />
+      <line x1="70.6" y1="129.4" x2="76" y2="124" />
+      <line x1="124" y1="76" x2="129.4" y2="70.6" />
+    </g>
+
+    <!-- hands -->
+    <line x1="100" y1="100" x2="100" y2="70" stroke-width="1.5" />
+    <line x1="100" y1="100" x2="122" y2="112" stroke-width="1.5" />
+    <circle cx="100" cy="100" r="2.4" fill="#898781" stroke="none" opacity="0.55" />
+
+    <!-- seconds sub-dial -->
+    <circle cx="100" cy="122" r="12" opacity="0.4" />
+
+    <!-- bracelet hints -->
+    <path d="M82 18 L82 4 M118 18 L118 4" opacity="0.35" />
+    <path d="M82 182 L82 196 M118 182 L118 196" opacity="0.35" />
+  </g>
+</svg>
